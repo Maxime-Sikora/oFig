@@ -1,0 +1,256 @@
+body{
+    font-family: 'Raleway';
+}
+
+.red{
+    background-color: #c80000;
+    color: white;
+    font-weight: 600;
+    padding: 20px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.red-right{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    transition: .3s;
+}
+
+.red-right a{
+    margin: 5px;
+    padding: 5px;
+    border: solid #c80000 2px;
+    border-radius: 4px;
+    transition: .3s;
+    background-color: #c80000;
+}
+
+.red-right a:hover{
+    text-decoration: underline;
+    color: #c80000;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.red h1{
+    display: inline;
+    font-size: 2em;
+}
+
+.red p{
+    display: inline;
+}
+
+.grey{
+    background-color: #666;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.grey span{
+    font-size: 1.4em;
+    font-style: italic;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    max-width: 1050px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.statuette{
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    max-width: 310px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    margin: 10px 20px;
+    transition: 0.3s;
+}
+
+.statuette:hover{
+    transform: scale(1.05);
+}
+
+.statuette img{
+    width: 300px;
+    height: auto;
+}
+
+.statuette h2{
+    text-transform: uppercase;
+    color: #ccc;
+    border-bottom: #ccc solid 1px;
+    padding: 2.5px 0;
+    margin-bottom: 5px;
+}
+
+.heroname{
+    font-weight: 600;
+    font-size: 1.3em;
+    margin: 5px 0;
+}
+
+.panier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c80000;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px 0 5px 0;
+    transition: .3s;
+    border: solid #c80000 2px;
+    border-radius: 4px;
+}
+
+.panier:hover{
+    background-color: white;
+    border: solid #c80000 2px;
+    font-weight: 600;
+    color: #c80000;
+}
+
+footer{
+    background-color: #666;
+    text-align: center;
+    color: white;
+    padding: 10px 0 30px 0;
+}
+
+.container_contact {
+    display: flex;
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+    height: auto;
+    max-width: 1050px;
+    margin: auto;
+}
+
+.container_contact h1 {
+    font-weight:  bold;
+    font-size: 2em;
+    margin: 20px 0 40px 0;
+}
+
+table{
+    margin: 20px 15%;
+    text-align: center;
+}
+
+thead th {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    border-bottom: #666 solid 1px;
+}
+
+td{
+    padding: 10px 0;
+}
+
+td input{
+    width: 35px;
+}
+
+td a {
+    margin-left: 5px;
+    color: #c80000;
+}
+
+tfoot th {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+.container_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+legend {
+    margin-bottom: 20px;
+    color: #666;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.container_right label {
+    margin-bottom: 10px;
+}
+
+.container_right input {
+    border: transparent;
+    border-bottom: #cacaca 1px solid;
+    margin-bottom: 7px;
+}
+
+.bottom_panier {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.bottom_panier p {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+
+
+.price {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.price_contact{
+    color: #c80000;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.buttonred {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 15px 35px;
+    color: white;
+    background-color: #c80000;
+    border: transparent 1px solid;
+}
+
+.buttonwhite{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 15px 35px;
+    background-color: #cacaca;
+    border: transparent 1px solid;
+}
+
+.buttonred:hover {
+    color: #c80000;
+    background-color: white;
+    border: #c80000 1px solid;
+}
