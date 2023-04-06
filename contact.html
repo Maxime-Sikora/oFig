@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>oFig FF XIV</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,600;1,200&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="red">
+                <div class="red-left">
+                    <h1>oFig</h1>
+                    <p>Figurines et statuettes</p>
+                </div>
+                <nav class="red-right">
+                    <a href="index.html" class="menu">Acceuil</a>
+                    <a href="#" class="menu">Catégorie</a>
+                    <a href="contact.html" class="menu">Contact</a>
+                </nav>
+            </div>
+            <div class="grey">
+                <p>Votre panier <span>2 produits</span></p>
+            </div>
+        </header>
+
+        <main class="container_contact">
+
+            <h1>Votre panier</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Figurine</th>
+                        <th>Prix unitaire</th>
+                        <th>Quantité</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Cloud Strike</th>
+                        <td>59€</td>
+                        <td>
+                            <input type="number" value="1">
+                            <a href="#">supprimer</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Tifa Lockhart</th>
+                        <td>69€</td>
+                        <td>
+                            <input type="number" value="1">
+                            <a href="#">supprimer</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Barret Wallace</th>
+                        <td>69€</td>
+                        <td>
+                            <input type="number" value="1">
+                            <a href="#">supprimer</a>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="2">Total de la commande :</th>
+                        <td class="price_contact">197€</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <h1>Préférence de livraison</h1>
+            <form action="">
+                <div class="container_form">
+                    <div class="container_left">
+                        <fieldset>
+                            <legend>Où souhaiez-vous être livré ?</legend>
+                            <div>
+                                <input type="radio" id="my-adresse" name="adresse">    
+                                <label for="my-adresse">Mon adresse courante</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="adresse" id="other-adress"> 
+                                <label for="other-adress"> Autre adresse</label>
+                            </div>                                     
+                        </fieldset>
+                        <fieldset>
+                            <legend>Options</legend>
+                            <div>
+                                <input type="checkbox" name="Options" id="sms">
+                                <label for="sms">Suivi de livraison par sms (inclus)</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="Options" id="satisfait-ou-rbt">
+                                <label for="satisfait-ou-rbt">Satisfait ou remboursé (+2 euros)</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="Options" id="Garantie">
+                                <label for="Garantie">Garantie 2 ans (+10 euros)</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="container_right">
+                        <fieldset>
+                            <legend>Adresse</legend>
+                            <label for="rue">Rue</label>
+                            <input type="text" name="Rue" id="rue">
+                            <label for="cp">Code Postal</label>
+                            <input type="text" name="cp" id="cp">
+                            <label for="ville">Ville</label>
+                            <input type="text" name="ville" id="ville">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Informations complémentaires</legend>
+                            <label for="complementaire">Interphone, bâtiment, etc.</label>
+                            <input type="text" name="complementaire" id="complementaire">
+                        </fieldset>
+                    </div>
+                </div>
+                <hr>
+                
+                <div class="bottom_panier">
+                    <p>Montant à régler :</p>
+                    <span class="price_contact">197 €</span>
+                </div>
+
+                <hr>
+
+                <div class="bottom_panier">
+                    <button class="buttonwhite">Continuer vos achats</button>
+                    <button class="buttonred">Valider et payer</button>
+                </div>
+
+                <hr>
+
+            </form>
+
+            
+
+        </main>
+        
+        <footer>
+            <p>oFig - toutes les images sont sous copyright SquareEnix</p>
+        </footer>
+
+    </body>
+
+</html>
